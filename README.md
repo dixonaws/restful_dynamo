@@ -33,8 +33,16 @@ use dynamo_scan.py and dynamo_query.py programs to retrieve items from your Dyna
 > handled by AWS IAM
 > You may have to modify the IAM role that your Lambda function uses to query Dynamo
 
-### Modify the code to query a DynamoDB table
+### Modify the app.py code to query a DynamoDB table
+Enter the restful_dynamo_api directory. Capture the Python dependencies into requirements.txt
+with:
+```bash
+pip freeze > requirements.txt
+```
+
+Chalice will use this file to build your Lambda deployment package.
 The app.py program in your Chalice project folder is the Lambda function behind your API. Use 
 dynamo_query.py and dynamo_scan.py as a reference to modify app.py to get 
-information from a DynamoDB table.
+information from a DynamoDB table. If you need more help, then the app_reference.py program is
+a copy of a working RESTful API that you can use in your app.py.
 
