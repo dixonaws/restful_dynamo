@@ -1,0 +1,16 @@
+{
+  "firstName": "John",
+  "lastName": "Dixon",
+  "phone": "+12482192900",
+  "email": "dixonaws@amazon.com",
+  "addressLine1": "150 W Jefferson",
+  "addressLine2": "2nd Floor",
+  "city": "Detroit",
+  "state": "MI",
+  "zipcode": "48988",
+  "company": "AWS",
+  "userid": "dixonaws",
+  "employeeType": "employee",
+  "manager": "Bezos, Jeff",
+  "managerEmail": "jeff@amazon.com"
+}

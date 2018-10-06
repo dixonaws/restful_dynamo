@@ -1,0 +1,58 @@
+{
+    "TableName": "employees",
+    "Item": {
+        "KeyName": {
+            "N": "8675309",
+            "B": null,
+            "SS": [
+                ""
+            ],
+            "NS": [
+                ""
+            ],
+            "BS": [
+                null
+            ],
+            "M": {
+                "KeyName": {}
+            },
+            "L": [
+                {}
+            ],
+            "NULL": true,
+            "BOOL": true
+        }
+    },
+
+    "ReturnValues": "ALL_NEW",
+
+    "ConditionalOperator": "AND",
+    "ConditionExpression": "",
+    "ExpressionAttributeNames": {
+        "KeyName": ""
+    },
+    "ExpressionAttributeValues": {
+        "KeyName": {
+            "S": "",
+            "N": "",
+            "B": null,
+            "SS": [
+                ""
+            ],
+            "NS": [
+                ""
+            ],
+            "BS": [
+                null
+            ],
+            "M": {
+                "KeyName": {}
+            },
+            "L": [
+                {}
+            ],
+            "NULL": true,
+            "BOOL": true
+        }
+    }
+}
