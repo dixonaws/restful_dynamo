@@ -18,6 +18,20 @@ Does the API in its basic form work properly?
 Deploy to AWS with ```chalice deploy```
 Does the API in its basic form work properly?
 
+### Create a DynamoDB table
+Create a table called ```employees``` with employee_id as the primary key (an integer)
+
+> Spellind and case are critical: employee_ID or Employee_id are not the same as <b>employee_id</b>
+
+### Add a sample record to your DynamoDB table
+Use the dynamo_put.py program to put an item into your table.
+
+### Get a record from your DynamoDB table
+use dynamo_scan.py and dynamo_query.py programs to retrieve items from your DynamoDB table.
+ 
+> Username/password credentials are not used in DynamoDB. Authenticaiotn and aurthoeization is 
+> handled by AWS IAM 
+
 ### Modify the code to query a DynamoDB table
 The app.py program in your Chalice project folder is the Lambda function behind your API. Use 
 dynamo_query.py and dynamo_scan.py as a reference to modify app.py to get 
