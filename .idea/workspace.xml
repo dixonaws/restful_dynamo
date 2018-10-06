@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba63520c-39ef-4bb9-ade8-b4d4fc21e6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamo_put.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee_record.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamo_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamo_query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamo_scan.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamo_scan.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,7 @@
           <entry key="gitignore" value="18" />
           <entry key="json" value="223" />
           <entry key="md" value="882" />
-          <entry key="py" value="335" />
+          <entry key="py" value="453" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -51,7 +49,7 @@
           <entry key="JSON" value="17" />
           <entry key="Markdown" value="882" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="335" />
+          <entry key="Python" value="453" />
           <entry key="Scratch" value="206" />
         </counts>
       </usages-collector>
@@ -71,14 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dynamo_scan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-end-line="18" />
+            <state relative-caret-position="180">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
-                <marker date="1538829056325" expanded="true" signature="47:320" ph="..." />
+                <marker date="1538830921540" expanded="true" signature="47:277" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,20 +85,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamo_query.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
+                <marker date="1538830921548" expanded="true" signature="128:130" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamo_put.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="487">
+              <caret line="51" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="51" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -145,13 +144,13 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/dynamo_scan.py" />
-        <option value="$PROJECT_DIR$/dynamo_query.py" />
         <option value="$PROJECT_DIR$/put_employee.json" />
         <option value="$PROJECT_DIR$/dynamo_put.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
         <option value="$PROJECT_DIR$/employee_record.json" />
         <option value="$PROJECT_DIR$/dynamo_put.py" />
+        <option value="$PROJECT_DIR$/dynamo_query.py" />
+        <option value="$PROJECT_DIR$/dynamo_scan.py" />
       </list>
     </option>
   </component>
@@ -281,31 +280,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamo_scan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1538829056325" expanded="true" signature="47:320" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/put_employee.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamo_query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -325,10 +303,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dynamo_put.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="487">
+          <caret line="51" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="51" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamo_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1538830921548" expanded="true" signature="128:130" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamo_scan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1538830921540" expanded="true" signature="47:277" ph="..." />
           </folding>
         </state>
       </provider>

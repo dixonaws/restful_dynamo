@@ -1,18 +1,13 @@
 import boto3
-from boto3 import Key
 
 def main():
-	dynamodb=boto3.client('dynamodb')
+	dynamodb_resource = boto3.resource('dynamodb')
 
-	strEmployeeId='8675309'
+	strDynamoTable = "employees"
+	table = dynamodb_resource.Table(strDynamoTable)
 
-	table = dynamodb.Table('employees')
+	response = table.scan()
 
-
-	response = table.query(KeyConditionExpression=Key('employee_id').eq(strEmployeeId))
-
-	# todo: this will need to be adjusted
-	print(response['Items'][0]['name'])
-
+	print(response)
 
 main()

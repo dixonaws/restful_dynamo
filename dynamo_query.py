@@ -1,17 +1,23 @@
 import boto3
-from boto3.dynamodb.conditions import Key, Attr
+from boto3.dynamodb.conditions import Key
+import json
 
 def main():
-	dynamodb = boto3.client('dynamodb')
+	dynamodb_resource = boto3.resource('dynamodb')
 
-	strEmployeeId = '8675309'
+	strDynamoTable = "employees"
+	table = dynamodb_resource.Table(strDynamoTable)
 
-	table = dynamodb.Table('employees')
+	intEmployeeId=8675309
 
-	response = table.query(KeyConditionExpression=Key('employee_id').eq(strEmployeeId))
+	response = table.query(KeyConditionExpression=Key('employee_id').eq(intEmployeeId))
 
-	# todo: this will need to be adjusted
-	# print(response['Items'][0]['name'])
 	print(response)
+
+	print("Loading into a Python dict...")
+	dictItem = json.loads(response['Items'][0]['data'])
+
+	print('dictItem: ' + json.dumps(dictItem, indent=4, separators=(',', ': ')))
+
 
 main()
